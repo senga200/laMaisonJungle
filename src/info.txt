@@ -1,0 +1,8 @@
+{/* 
+     /* Si par exemple, vous vouliez afficher le 🔥 pour les plantes qui sont des  isBestSale   ET dans la category classique : */}
+
+ {//plant.isBestSale && plant.category === "classique" && <span>🔥</span>}
+// De la même manière, si vous aviez voulu que le 🔥 s'affiche à côté des plantes qui sont  isBestSale   OU dans la category classique :
+
+// {(//plant.isBestSale || plant.category === "classique") && <span>🔥</span>}
+// Mais gare à la propreté du code. Si vous avez trop de conditions, je vous conseille de les sortir de ce qui est retourné par votre fonction */}
